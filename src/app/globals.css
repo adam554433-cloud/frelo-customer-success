@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700;9..144,900&family=Afacad:wght@400;500;600;700&display=swap');
+
 @theme inline {
   --color-background: #1B0D02;
   --color-surface: #2A1A0E;
@@ -8,22 +10,22 @@
   --color-border: #3A2518;
   --color-border-light: #4A3020;
   --color-gold: #B9923B;
-  --color-gold-light: #D4AD5A;
-  --color-gold-dim: #8A6D2B;
+  --color-gold-light: #D4B96A;
+  --color-gold-dim: #9F7925;
   --color-cream: #E5D5BF;
   --color-cream-light: #FDF5E6;
   --color-cream-dim: #A89880;
-  --color-teal: #00897B;
-  --color-teal-deep: #00695C;
-  --color-forest: #004D40;
-  --color-chocolate: #3B1200;
+  --color-teal: #B9923B;
+  --color-teal-deep: #9F7925;
+  --color-forest: #1B0D02;
+  --color-chocolate: #1B0D02;
   --color-text-primary: #FDF5E6;
   --color-text-secondary: #A89880;
   --color-text-muted: #6B5D4F;
   --color-danger: #E74C3C;
   --color-success: #27AE60;
   --color-warning: #F39C12;
-  --color-info: #00897B;
+  --color-info: #B9923B;
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -31,7 +33,7 @@
 body {
   background: var(--color-background);
   color: var(--color-text-primary);
-  font-family: var(--font-sans), system-ui, sans-serif;
+  font-family: 'Afacad', system-ui, sans-serif;
 }
 
 /* Custom scrollbar */
